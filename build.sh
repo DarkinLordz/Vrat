@@ -1,4 +1,4 @@
-pip install -r linux_requirements.txt
+pip install -r requirements_linux.txt
 pyinstaller --onefile --noconsole \
   --hidden-import=psutil \
   --hidden-import=pyautogui \

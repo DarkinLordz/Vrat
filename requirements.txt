@@ -27,3 +27,6 @@ pynput>=1.7.6
 
 # Webcam capture functionality
 opencv-python>=4.8.0
+
+# Screenshot capture functionality
+pillow
